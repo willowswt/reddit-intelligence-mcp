@@ -1,0 +1,35 @@
+{
+  "name": "@willowswt/reddit-intelligence-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for high-speed Reddit subreddit extraction, comment thread scraping, RAG Markdown generation, and B2B buyer-intent lead scoring via Apify.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "reddit-intelligence-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:http": "node src/index.js --http"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "reddit",
+    "osint",
+    "buyer-intent",
+    "social-listening",
+    "market-research",
+    "apify"
+  ],
+  "homepage": "https://apify.com/church_of_loujess/reddit-scraper-fast",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willowswt/reddit-intelligence-mcp.git"
+  },
+  "author": "Church of LouJess",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
